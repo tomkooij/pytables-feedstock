@@ -38,7 +38,7 @@ install:
 
 script:
   # work-around for conda inspect linkages bug
-  - conda install conda-build=1.21.11
+  - conda install --yes conda-build=1.21.11
   - conda build ./recipe
 
 after_success:
