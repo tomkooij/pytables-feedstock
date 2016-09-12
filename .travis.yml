@@ -37,6 +37,8 @@ install:
       source run_conda_forge_build_setup
 
 script:
+  # work-around for conda inspect linkages bug
+  - conda install conda-build=1.21.11
   - conda build ./recipe
 
 after_success:
