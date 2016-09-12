@@ -6,7 +6,7 @@ package:
 
 source:
     fn: PyTables-v{{ version }}.tar.gz
-    url: https://github.com/tomkooij/PyTables/archive/v{{ version }}.tar.gz
+    url: https://github.com/PyTables/PyTables/archive/v{{ version }}.tar.gz
     sha256: dceb15fef556a2775121bcc695561df4ff0e09248e0ce3a2d58f5244a9f61421
 
 build:
